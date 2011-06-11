@@ -1,0 +1,19 @@
+How to use
+
+1 Export tasks from Remeber the Milk
+ 1-1 get API Keys 
+  https://www.rememberthemilk.com/services/api/keys.rtm
+ 1-2 execute command.
+  ./rtm_fetch.py APIKEY SECRET
+
+  It gets all tasks and save to "rtm.json".
+
+2 Import tasks to Google Tasks.
+ 2-1 get API Keys
+  https://code.google.com/apis/console/
+  activte Tasks API
+ 2-2 execute command.
+  ./google_push.py CLIENT_ID CLIENT_SECRET
+
+  It import to all tasks to default task list.
+
